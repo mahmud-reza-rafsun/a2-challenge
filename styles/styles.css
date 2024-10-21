@@ -1,0 +1,50 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* shared styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;  
+    /* font-family: "Dancing Script", cursive; */
+}
+.max-width{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 120px;
+}
+
+/* header section start */
+
+.header{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo a{
+    font-size: 34px;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-weight: 600;
+}
+.header .menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 35px;
+}
+.header .menu ul li a{
+    font-size: 17px;
+    font-weight: 400;
+    color: #111;
+}
+li.active a{
+    background: rgb(230, 83, 60);
+    text-align: center;
+    border-radius: 100px;
+    text-align: center;
+    padding: 7px 20px;
+    color: #fff !important;
+}
