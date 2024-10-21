@@ -1,5 +1,21 @@
 /* responsive media query mobile device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .max-width{
+        padding: 0 40px;
+    }
+}
 
-.max-width{
-    padding: 0 30px;
+@media screen and (max-width: 576px) {
+    .max-width{
+        padding: 0 30px;
+    }
+    .header .logo a{
+        font-size: 30px;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
 }
