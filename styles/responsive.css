@@ -97,4 +97,18 @@
     .bmi-right p{
         font-size: 13px;
     }
+    .teams-container{
+        padding: 15px 5px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .teams-box {
+        width: 100%;
+    }
+    .teams-title h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .teams-title p {
+        font-size: 14px;
+    }
 }

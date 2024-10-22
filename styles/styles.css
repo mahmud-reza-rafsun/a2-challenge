@@ -279,3 +279,61 @@ li.active a{
     gap: 10px;
     margin-bottom: 10px;
 }
+
+/* teams section start */
+.teams{
+    padding: 60px 0;
+}
+.teams-title{
+    text-align: center;
+}
+.teams-title h2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #fff;
+}
+.teams-title p{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--title-color);
+    line-height: 26px;
+    padding: 10px 0;
+}
+.teams-container{
+    background: #222222;
+    padding: 20px 10px;
+    display: grid;
+    border-radius: 10px;
+    gap: 20px 0;
+    grid-template-columns: repeat(3, 1fr);
+}
+.teams-box{
+    width: 80%;
+    margin: 30px auto 0 auto;
+}
+.teams-card{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.teams-card img {
+    width: 91%;
+    height: 217px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.t-img-title {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    text-align-last: left;
+}
+.t-img-title h5{
+    color: #fff;
+}
+.t-img-title p{
+    color: var(--title-color);
+    font-size: 14px;
+    font-weight: 300;
+}
