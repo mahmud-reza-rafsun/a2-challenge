@@ -6,8 +6,11 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
-    text-decoration: none;  
+    text-decoration: none;
     
+}
+body{
+    background: #131313;
 }
 .dancing_script{
     font-family: "Dancing Script", cursive;
@@ -27,7 +30,9 @@
     border-radius: 33px;
     cursor: pointer;
 }
-
+:root{
+    --title-color: #ffffff80;
+}
 /* header section start */
 .header-section{
     background: linear-gradient(0deg, rgb(16, 16, 16) 100%, rgba(16, 16, 16, 0) -10%, rgba(16, 16, 16, 0) 100%)
@@ -68,14 +73,13 @@ li.active a{
 /* menu-btn */
 .menu-btn{
     font-size: 20px;
-    color: #111;
+    color: #fff;
     display: none;
 }
 
 /* banner content */
 
 .banner-content{
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -95,16 +99,63 @@ li.active a{
     letter-spacing: 0.5px;
     line-height: 24px;
     padding: 26px 0px;
-    color: #ffffff80;
+    color: var(--title-color);
 }
 .btn-secondary{
     background: none;
-    border: 2px solid #ffffff80;
+    border: 2px solid var(--title-color);
     padding: 10px 23px;
     font-size: 16px;
     font-weight: 500;
-    color: #fff;
+    color: var(--title-color);
     margin-left: 10px;
     border-radius: 33px;
     cursor: pointer;
 }
+
+/* habit section style */
+
+.habit{
+    padding: 100px 0;
+}
+.habit-title{
+    text-align: center;
+}
+.habit-title h2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #fff;
+}
+.habit-title p{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--title-color);
+    line-height: 26px;
+    padding: 10px 0;
+}
+.habit-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+    gap: 30px;
+}
+.habit-box img{
+    width: 50%;
+    border-radius: 100%;
+}
+.habit-box h4 {
+    font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.habit-box p {
+    font-size: 13px;
+    color: var(--title-color);
+    font-weight: 300;
+}
+
+/* run section styles */
+

@@ -18,4 +18,40 @@
     .menu-btn{
         display: block;
     }
+    .banner-content{
+        flex-direction: column;
+    }
+    .b-left h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .b-left p {
+        font-size: 14px;
+        padding: 20px 0px;
+    }
+    .btn-primary {
+        padding: 8px 21px;
+        font-size: 14px;
+    }
+    .btn-secondary{
+        padding: 8px 21px;
+        font-size: 15px;
+    }
+    .b-right img{
+        margin-top: 20px;
+    }
+    .habit-container{
+        flex-direction: column;
+    }
+    .habit-title h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .habit-title p{
+        font-size: 14px;
+        font-weight: 300;
+        color: var(--title-color);
+        line-height: 26px;
+        padding: 10px 0;
+    }
 }
