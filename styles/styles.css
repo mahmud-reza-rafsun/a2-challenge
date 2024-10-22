@@ -196,3 +196,21 @@ li.active a{
 .btn{
     padding: 8px 40px;
 }
+
+/* bmi section styles */
+.bmi-calculation{
+    padding: 50px 0;
+}
+.bmi-container{
+    background: #222222;
+}
+.bmi-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bmi-left table, tr, th, td{
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
