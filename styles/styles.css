@@ -10,7 +10,7 @@
     
 }
 body{
-    background: #131313;
+    background: #0a0a0a;
 }
 .dancing_script{
     font-family: "Dancing Script", cursive;
@@ -159,3 +159,40 @@ li.active a{
 
 /* run section styles */
 
+.run{
+    padding: 100px 0;
+}
+.run-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    background: #222222;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.run-left{
+    width: 50%;
+}
+.run-left h1 {
+    font-size: 36px;
+    color: #fff;
+}
+.run-left p{
+    font-size: 13px;
+    color: var(--title-color);
+    font-weight: 300;
+    padding: 20px 0;
+    line-height: 24px;
+}
+.run-right{
+    text-align: right;
+    width: 50%;
+}
+.run-right img{
+    border-radius: 10px;
+    width: 80%;
+}
+.btn{
+    padding: 8px 40px;
+}
