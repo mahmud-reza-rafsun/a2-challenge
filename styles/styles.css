@@ -139,7 +139,7 @@ li.active a{
     justify-content: space-between;
     margin-top: 30px;
     text-align: center;
-    gap: 30px;
+    gap: 30px;  
 }
 .habit-box img{
     width: 50%;
@@ -210,7 +210,72 @@ li.active a{
     justify-content: space-between;
     padding: 40px 0;
 }
+.bmi-left{
+    width: 50%;
+}
+.bmi-left h3 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 31px;
+}
 .bmi-left table, tr, th, td{
     border: 1px solid #fff;
     border-collapse: collapse;
+    padding: 6px 25px;
+    text-align: left;
+}
+.bmi-left table, th{
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+.bmi-left table td{
+    color: var(--title-color);
+    font-size: 14px;
+    font-weight: 300;
+}
+.bmi-right{
+    width: 50%;
+}
+.bmi-right h3 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.bmi-right p{
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 0 20px 0;
+    color: var(--title-color);
+}
+.bmi-right input[type="text"] {
+    padding: 11px 20px;
+    font-size: 14px;
+    background: #5a5858;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    color: #fff;
+}
+.bmi-right input[type="text"]::placeholder{
+    color: #fff;
+}
+.bmi-right input[type="number"]{
+    padding: 11px 20px;
+    font-size: 14px;
+    width: 189%;
+    background: #5a5858;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    color: #fff;
+}
+.bmi-right input[type="number"]::placeholder{
+    color: #fff;
+}
+.input-field{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
 }
