@@ -40,6 +40,9 @@
     .b-right img{
         margin-top: 20px;
     }
+    .habit{
+        padding: 20px 0;
+    }
     .habit-container{
         flex-direction: column;
     }
@@ -109,6 +112,42 @@
         font-weight: 700;
     }
     .teams-title p {
+        font-size: 14px;
+    }
+    .footer-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-right{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .f-left{
+        width: 100%;
+    }
+    .f-right{
+        width: 100%;
+    }
+    .footer-left h1 {
+        font-size: 32px;
+    }
+    .footer-left p {
+        font-size: 14px;
+        padding: 15px 0;
+    }
+    .f-left h2 {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+    .f-right h2 {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+    .f-left ul li a {
         font-size: 14px;
     }
 }

@@ -201,6 +201,23 @@ li.active a{
 .bmi-calculation{
     padding: 50px 0;
 }
+.bmi-title {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.bmi-title h2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #fff;
+}
+.bmi-title p {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--title-color);
+    line-height: 26px;
+    padding: 10px 0;
+}
 .bmi-container{
     background: #222222;
 }
@@ -335,5 +352,82 @@ li.active a{
 .t-img-title p{
     color: var(--title-color);
     font-size: 14px;
+    font-weight: 300;
+}
+
+/* footer section start */
+
+.footer{
+    padding: 40px 0;
+    background-color: #222222;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    padding-bottom: 50px;
+}
+.footer-left{
+    width: 50%;
+}
+.footer-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.footer-left h1 {
+    font-size: 40px;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-weight: 600;
+}
+.footer-left p {
+    font-size: 15px;
+    color: var(--title-color);
+    font-weight: 300;
+    padding: 20px 0;
+    line-height: 22px;
+}
+.f-left h2 {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.f-right h2 {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.f-left ul li {
+    list-style-type: none;
+}
+.f-left ul li a {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 0;
+    color: var(--title-color);
+    display: block;
+}
+.f-right ul li{
+    list-style-type: none;
+}
+.f-right ul li a {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 0;
+    color: var(--title-color);
+    display: block;
+}
+.footer-title{
+    border-top: 1px solid var(--title-color);
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-title p{
+    color: var(--title-color);
+    font-size: 18px;
     font-weight: 300;
 }
