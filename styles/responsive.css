@@ -40,6 +40,36 @@
     .b-right img{
         margin-top: 20px;
     }
+    .btn-top {
+        background-color: #202020;
+        top: 16%;
+        right: -3%;
+        padding: 16px 15px;
+    }
+    .btn-top h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .btn-top p {
+        font-size: 13px;
+    }
+    .btn-bottom {
+        gap: 0 13px;
+        left: -3%;
+        bottom: 44%;
+        padding: 16px 15px;
+    }
+    .btn-bottom h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .btn-bottom p {
+        font-size: 13px;
+    }
+    .circle {
+        width: 31px;
+        height: 30px;
+    }
     .habit{
         padding: 20px 0;
     }
@@ -58,7 +88,7 @@
         padding: 10px 0;
     }
     .run-container{
-        padding: 20px 30px;
+        padding: 17px 20px;
         flex-direction: column;
         gap: 20px;
     }
@@ -67,6 +97,9 @@
     }
     .run-left h1{
         font-size: 25px;
+    }
+    .run-left p {
+        font-size: 14px;
     }
     .run-right{
         width: 100%;
@@ -79,17 +112,28 @@
         flex-direction: column;
         gap: 30px 0;
     }
+    .bmi-title {
+        width: 82%;
+    }
+    .bmi-title h2{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .bmi-title p{
+        font-size: 14px;
+    }
     .bmi-left {
         width: 100%;
+        margin: 0;
     }
     .bmi-right {
         width: 100%;
     }
     .bmi-right input[type="text"]{
-        width: 80%;
+        width: 74%;
     }
-    .bmi-right input[type="number"] {
-        width: 187%;
+    .bmi-right #select_activity {
+        width: 206%;
     }
     .bmi-left h3 {
         font-size: 20px;
@@ -149,5 +193,8 @@
     }
     .f-left ul li a {
         font-size: 14px;
+    }
+    .footer-title p {
+        font-size: 16px;
     }
 }
